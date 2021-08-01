@@ -1,0 +1,101 @@
+
+/* TITTLE-BAR */
+header{
+    
+    height: 9vh;
+    background: #212121;
+    display: flex;
+    align-items: center;
+
+    border-top-left-radius: 1.6vh;
+    border-top-right-radius: 1.6vh;
+    border-bottom: solid 3px black;
+
+}
+.close {
+
+    width: 3vh;
+    min-width: 9px;
+    max-width: 33px;
+    height: 3vh;
+    min-height: 9px;
+    max-height: 33px;
+    border-radius: 100vh;
+    float: left;
+    margin-left: 2.6vh;
+    margin-right: 1.6vh;
+
+    background-color: #F66153;
+    z-index: 5;
+
+}
+.minimize {
+
+    width: 3vh;
+    min-width: 9px;
+    max-width: 33px;
+    height: 3vh;
+    min-height: 9px;
+    max-height: 33px;
+    border-radius: 100vh;
+    float: left;
+    margin-right: 1.6vh;
+
+    background-color: #F8C12F;
+    z-index: 5;
+
+}
+.maximize {
+
+    width: 3vh;
+    min-width: 9px;
+    max-width: 33px;
+    height: 3vh;
+    min-height: 9px;
+    max-height: 33px;
+    border-radius: 100vh;
+    float: left;
+    margin-right: 6vh;
+
+    background-color: #544B58;
+    z-index: 5;
+
+}
+.back {
+
+    width: 5.33vh;
+    margin-right: 2.6vh;
+
+}
+.restore {
+
+    transform: rotateY(180deg);
+    width: 5.33vh;
+    margin-right: 5.3vh;
+
+}
+#home {
+
+    width: 2.66vh;
+    margin-right: 1.6vw;
+    transition-duration: 0.3s;
+    float: left;
+
+} #home:hover {
+
+    scale: 1.1;
+
+}
+#jogos {
+
+    width: 4.33vh;
+    float: right;
+    clear: right;
+    transition-duration: 0.3s;
+
+} #jogos:hover {
+
+    scale: 1.1;
+
+}
+ /* --TOP-BAR-- */

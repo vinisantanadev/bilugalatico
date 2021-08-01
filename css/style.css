@@ -1,0 +1,68 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+
+}
+::-webkit-scrollbar {
+
+    width: 6px;
+    background: rgb(21, 21, 21);
+    border-radius: 99vh;
+
+} ::-webkit-scrollbar-track {
+
+    background: transparent;
+
+} ::-webkit-scrollbar-thumb {
+
+    background: #AFAFAF;
+    border-radius: 99vh;
+
+}
+body{
+
+    background-image: linear-gradient(360deg, #a556ff, #586DFF);
+    background-repeat: no-repeat;
+    color: #AFAFAF;
+    font-family: 'Ubuntu', 'Microsoft YaHei UI', 'Gill Sans MT', 'Arial';
+    font-size: 3vh;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 3vh 0; /* talvez tenha que alterar para "3vh 0" */
+    overflow: hidden;
+    
+}
+/* MAIN WINDOW */
+main {
+
+    width: 89%;
+    height: 93vh;
+    position: relative;
+    
+    border-radius: 1.6vh;
+    border-image: url(subnautica.svg);
+    border: solid 3px #7967b1;
+    box-shadow: 0 0 0 3px black;
+
+    background: #292929;
+
+} .window:before {
+    
+    content: "";
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 93vh;
+
+    border-radius: 1.6vh;
+    box-shadow: 0px 9px 19px -6px black;
+
+} /* --MAIN WINDOW-- */

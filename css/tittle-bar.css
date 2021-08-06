@@ -61,19 +61,6 @@ header{
     z-index: 5;
 
 }
-.back {
-
-    width: 5.33vh;
-    margin-right: 2.6vh;
-
-}
-.restore {
-
-    transform: rotateY(180deg);
-    width: 5.33vh;
-    margin-right: 5.3vh;
-
-}
 #home {
 
     width: 2.66vh;

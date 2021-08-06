@@ -1,22 +1,49 @@
-@media screen and (max-width: 947px) {
+@media screen and (max-width: 866px) {
 
-    #img-subnautica {
+    #p-subnautica, #p-ts4, #p-gta{
 
-        margin-left: 1.6vh;
-        margin-right: 1.3vh;
+        display: none;
+        
+    }
+    #h1-container {
+
+        margin-bottom: 9vh;
 
     }
-    #img-ts4 {
+    .subnautica, .ts4, .gta {
 
-        margin-left: 1.6vh;
-        margin-right: 1.3vh;
+        width: 83%;
+        min-width: 0;
+        max-width: 383px;
+        max-height: none;
+        margin: auto;
+        margin-bottom: 6vh;
+        display: block;
+
+        text-align: center;
+    
+    }
+    #img-subnautica, #img-ts4, #img-gta {
+    
+        width: 109.2%;
+        max-width: none;
+        margin: auto;
+        margin-top: -4vh;
+        margin-left: -6px;
+        margin-right: none;
+        float: none;
+    
+    }
+    #h2-subnautica, #h2-ts4, #h2-gta {
+
+        font-size:calc(9px + 2.33vw);
 
     }
-    #img-gta {
+    #text-container {
 
-        margin-left: 1.6vh;
-        margin-right: 1.3vh;
+        padding: 1vh;
 
     }
+
 
 }

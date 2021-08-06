@@ -38,7 +38,7 @@ h1 {
     
     border-radius: 1.6vh;
     border: solid 3px rgb(09, 09, 09);
-    box-shadow: 0px 3px 6px rgb(21, 21, 21);
+    box-shadow: 0px 6px 9px  rgb(21, 21, 21);
 
 }
 #img-subnautica {
@@ -69,7 +69,6 @@ h1 {
 
     float: right;
     text-align: justify;
-    padding-bottom: 6vh;
 
 }
 .ts4 {
@@ -111,7 +110,6 @@ h1 {
 
     float: right;
     text-align: justify;
-    padding-bottom: 6vh;
 
 }
 .gta {
@@ -153,7 +151,6 @@ h1 {
 
     float: right;
     text-align: justify;
-    padding-bottom: 6vh;
 
 }
 footer {

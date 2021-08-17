@@ -23,7 +23,7 @@ h1 {
     margin-top: 5vh;
 
 }
-.subnautica {
+.subnautica, .ts4, .gta, .rimworld {
 
     width: 66%;
     min-width: 366px;
@@ -41,7 +41,7 @@ h1 {
     box-shadow: 0px 6px 9px  rgb(21, 21, 21);
 
 }
-#img-subnautica {
+#img-subnautica, #img-ts4, #img-gta, #img-rimworld {
 
     width: 66vw;
     max-width: 20.3vh;
@@ -65,40 +65,6 @@ h1 {
     font-size:calc(9px + 0.99vw);
 
 }
-#p-subnautica {
-
-    float: right;
-    text-align: justify;
-
-}
-.ts4 {
-
-    width: 66%;
-    min-width: 366px;
-    max-width: 999px;
-    height: auto;
-    max-height: 18.66vh;
-    background: rgb(21, 21, 21);
-    margin: auto;
-    margin-bottom: 3vh;
-    display: flex;
-    align-items: center;
-    
-    border-radius: 1.6vh;
-    border: solid 3px rgb(09, 09, 09);
-    box-shadow: 0px 3px 6px rgb(21, 21, 21);
-
-}
-
-#img-ts4 {
-
-    width: 66vw;
-    max-width: 20.3vh;
-    margin: 0;
-    margin-left: -3px;
-    margin-right: 3vh;
-    float: left;
-}
 #h2-ts4 {
 
     color: #3E9231;
@@ -106,48 +72,21 @@ h1 {
     font-size:calc(9px + 0.99vw);
 
 }
-#p-ts4 {
-
-    float: right;
-    text-align: justify;
-
-}
-.gta {
-
-    width: 66%;
-    min-width: 366px;
-    max-width: 999px;
-    height: auto;
-    max-height: 18.66vh;
-    background: rgb(21, 21, 21);
-    margin: auto;
-    margin-bottom: 3vh;
-    display: flex;
-    align-items: center;
-    
-    border-radius: 1.6vh;
-    border: solid 3px rgb(09, 09, 09);
-    box-shadow: 0px 3px 6px rgb(21, 21, 21);
-
-}
-
-#img-gta {
-
-    width: 66vw;
-    max-width: 20.3vh;
-    margin: 0;
-    margin-left: -3px;
-    margin-right: 3vh;
-    float: left;
-}
 #h2-gta {
 
-    color: #578620;
+    color: #3E9231;
     margin-bottom: 1.33vh;
     font-size:calc(9px + 0.99vw);
 
 }
-#p-gta {
+#h2-rimworld {
+
+    color: #FAFAFA;
+    margin-bottom: 1.33vh;
+    font-size:calc(9px + 0.99vw);
+
+}
+#p-subnautica,  #p-ts4, #p-gta, #p-rimworld{
 
     float: right;
     text-align: justify;
